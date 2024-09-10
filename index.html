@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface d'Utilisation Quotidienne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Interface Quotidienne</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Rechercher...">
+        <button id="search-btn">Rechercher</button>
+    </div>
+
+    <div class="content">
+        <div class="left-panel">
+            <iframe id="external-site" src="https://hplanning.unilasalle.fr/" frameborder="0"></iframe>
+        </div>
+
+        <div class="right-panel">
+            <h2>Accès à ChatGPT</h2>
+            <iframe id="chatgpt" src="https://chat.openai.com/" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
